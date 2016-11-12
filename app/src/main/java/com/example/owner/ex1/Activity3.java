@@ -1,18 +1,13 @@
 package com.example.owner.ex1;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 
-public class Activity2 extends Activity {
+public class Activity3 extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_2);
-
-        Intent intent = new Intent(this,Activity3.class);
-        startActivity(intent);
+        setContentView(R.layout.activity_3);
     }
-
 }
