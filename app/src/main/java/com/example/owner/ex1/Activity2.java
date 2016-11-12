@@ -4,14 +4,15 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-public class MainActivity extends Activity {
+public class Activity2 extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_2);
 
-        Intent intent = new Intent(this,Activity2.class);
+        Intent intent = new Intent(this,Activity3.class);
         startActivity(intent);
     }
+
 }
