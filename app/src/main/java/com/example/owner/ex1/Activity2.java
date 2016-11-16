@@ -16,6 +16,7 @@ public class Activity2 extends Activity {
         startActivity(intent);
 
         this.finish();
+        //askdflajsfdkljaskldfj
     }
 
     @Override
