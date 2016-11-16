@@ -14,6 +14,9 @@ public class Activity2 extends Activity {
 
         Intent intent = new Intent(this,Activity3.class);
         startActivity(intent);
+
+        this.finish();
+        //askdflajsfdkljaskldfj
     }
 
     @Override
